@@ -11,7 +11,7 @@ const getAllProductsStatic = async(req,res)=>{
     console.log({msg : err})
     }
 }
-
+//
 
 
 const getAllProducts =async(req,res)=>{
