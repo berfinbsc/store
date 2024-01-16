@@ -35,6 +35,11 @@ company : {
     },
 },
 
+image :{
+type: String,
+required : [true,'image must be provide'],
+},
+
 
 
 
