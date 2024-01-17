@@ -9,9 +9,10 @@ app.use(express.json());
 const port =process.env.PORT
 const url=process.env.MONGO_URI
 app.use(express.static('./public'));
+const cors = require('cors');
+app.use(cors());
 
-
-app.use('/api/v1/products',productRouter)
+app.use('/api',productRouter)
 
 
 const start = async()=>{
